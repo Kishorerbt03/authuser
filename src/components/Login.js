@@ -20,7 +20,7 @@ function Login({ setUser }) {
 
   return (
     <form onSubmit={handleLogin} className="m-2">
-      <h2>Login</h2>
+      <h2>Login1</h2>
       <div className="form-group">
         <label>Email</label>
         <input
