@@ -20,6 +20,7 @@ const pool = new Pool({
 // Route to handle user registration (no encryption)
 app.post('/api/register', async (req, res) => {
   const { username, email, password } = req.body;
+  console.log('Register request received:', req.body);
   try {
     const newUser = await pool.query(
       'INSERT INTO users (username, email, password) VALUES ($1, $2, $3) RETURNING *',
