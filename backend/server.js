@@ -11,7 +11,7 @@ app.use(cors());
 // Set up PostgreSQL connection
 const pool = new Pool({
   user: "postgres",
-  host: "localhost",
+  host: "13.232.80.168",
   database: "Project",
   password: "kishore",
   port: "5432",
