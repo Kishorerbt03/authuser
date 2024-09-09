@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="container">
       <h1 className="text-center mt-5">Aviatorq Drone Services</h1>
-      <h2 className="text-center mt-5">User Authentication</h2>
+      <h2 className="text-center mt-5">User Authentication Aviatorq</h2>
       <div className="d-flex justify-content-center mt-4">
         {!token ? (
           <>
