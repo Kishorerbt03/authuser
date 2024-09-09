@@ -8,7 +8,7 @@ function Login({ setUser }) {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/login', {
+      const response = await axios.post('http://13.232.80.168:5000/api/login', {
         email,
         password,
       });
